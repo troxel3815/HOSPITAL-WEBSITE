@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hopeville Hospital | Simple website</title>
+  <!-- Link to external CSS (separate file) -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- (the CSS is embedded in the same file for portability,
+       but it is completely separate from HTML – you can copy it to style.css) -->
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>🏥 Hopeville</h1>
+        <p class="logo-sub">care & cure</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION (home) ========== -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h2>Your health is our priority</h2>
+      <p>24/7 emergency care · experienced specialists · modern facilities</p>
+      <a href="#contact" class="btn">Make an appointment</a>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Our medical services</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">🩺</div>
+          <h3>General checkup</h3>
+          <p>Routine examinations and health screenings for all ages.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🚑</div>
+          <h3>Emergency care</h3>
+          <p>Rapid response trauma centre, open 24 hours a day.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💊</div>
+          <h3>Pharmacy</h3>
+          <p>In‑house pharmacy with prescribed and OTC medicines.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🩻</div>
+          <h3>Radiology & imaging</h3>
+          <p>MRI, CT, X‑ray and ultrasound – modern diagnostics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DOCTORS SECTION ========== -->
+  <section id="doctors" class="doctors">
+    <div class="container">
+      <h2 class="section-title">Meet our specialists</h2>
+      <div class="card-grid">
+        <div class="card doctor-card">
+          <img src="https://placehold.co/300x200/ebf4ff/1e3a8a?text=Dr.+Sarah+Lee" alt="Doctor Sarah Lee" class="doctor-img">
+          <h3>Dr. Sarah Lee</h3>
+          <p class="specialty">Cardiology</p>
+        </div>
+        <div class="card doctor-card">
+          <img src="https://placehold.co/300x200/ebf4ff/1e3a8a?text=Dr.+James+Omar" alt="Doctor James Omar" class="doctor-img">
+          <h3>Dr. James Omar</h3>
+          <p class="specialty">Neurology</p>
+        </div>
+        <div class="card doctor-card">
+          <img src="https://placehold.co/300x200/ebf4ff/1e3a8a?text=Dr.+Nina+Kapoor" alt="Doctor Nina Kapoor" class="doctor-img">
+          <h3>Dr. Nina Kapoor</h3>
+          <p class="specialty">Pediatrics</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="contact">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <h2 class="section-title">Get in touch</h2>
+        <p><span>📍</span> 123 Wellness Ave, Medical District</p>
+        <p><span>📞</span> +1 (800) 456-7890</p>
+        <p><span>✉️</span> contact@hopeville.health</p>
+        <p><span>🕒</span> Open 24/7 – including holidays</p>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Email address" required>
+          <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Hopeville Hospital. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="#">Privacy</a> · 
+        <a href="#">Terms</a> · 
+        <a href="#contact">Contact</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
